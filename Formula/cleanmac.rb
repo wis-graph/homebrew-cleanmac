@@ -1,17 +1,17 @@
 class Cleanmac < Formula
   desc "A fast, AI-ready macOS system cleaner CLI with TUI"
   homepage "https://github.com/wis-graph/cleanmac-cli"
-  version "1.0.3"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/wis-graph/cleanmac-cli/releases/download/v#{version}/cleanmac-aarch64-apple-darwin.tar.gz"
-      sha256 "fd97dc363307878bddd8b8cc979390556c64685dcdf8dc09c80df9dc3d856a18"
+      sha256 "f010476eec913d2a5027e5fd78b7ba999e666d63575fde1c345419b74883a125"
     end
     on_intel do
       url "https://github.com/wis-graph/cleanmac-cli/releases/download/v#{version}/cleanmac-x86_64-apple-darwin.tar.gz"
-      sha256 "d617266f0260f4c3f0740db2ab481094ff1fea1fcbc435670d6d87345e5a4d7b"
+      sha256 "3f079b56898f1478cb54c861e165479f68247c46bb1ba5517fe2c5b09edf4f4e"
     end
   end
 
